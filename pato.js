@@ -166,9 +166,7 @@ turbo.on('CB:action,,call', async json => {
 			teks = `*ERES EL NUEVO ADMIN 😎*
 			
 \`\`\`Nombre :\`\`\` ${num.replace('@s.whatsapp.net', '')}
-
 \`\`\`Date : AHORITA\`\`\` 
-
 \`\`\`Grupo :\`\`\` ${mdata.subject}`
 			turbo.sendMessage(mdata.id, buff, MessageType.image, {caption : teks, contextInfo: {mentionedJid: [num]}, quoted: { "key": { "participant": `${numbernye}`, "remoteJid": `Kntl`, "fromMe": false, "id": "B391837A58338BA8186C47E51FFDFD4A" }, "message": { "documentMessage": { "jpegThumbnail": buff, "mimetype": "application/octet-stream", "title": `PROMOTE`, "fileLength": "36", "pageCount": 0, "fileName": `_Welcome_` }}, "messageTimestamp": "1614069378", "status": "PENDING"}})
 		} else if (anu.action == 'demote') {
@@ -184,9 +182,7 @@ turbo.on('CB:action,,call', async json => {
 			teks = `*YA NO ERES ADMIN 🥺*
 			
 \`\`\`Nombre :\`\`\` ${num.replace('@s.whatsapp.net', '')}
-
 \`\`\`Dato : AHORITA\`\`\`
-
 \`\`\`Grupo :\`\`\` ${mdata.subject}`
 			turbo.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {mentionedJid: [num]}, quoted: { "key": { "participant": `${numbernye}`, "remoteJid": `Ktl`, "fromMe": false, "id": "B391837A58338BA8186C47E51FFDFD4A" }, "message": { "documentMessage": { "jpegThumbnail": buff, "mimetype": "application/octet-stream", "title": `DEMOTE`, "fileLength": "36", "pageCount": 0, "fileName": `_Welcome_` }}, "messageTimestamp": "1614069378", "status": "PENDING"}})
 		}
@@ -998,19 +994,16 @@ switch (command) {
     runtem = `${kyun(anu)}`
 //
     var menu = `  
-
 𝐇𝐨𝐥𝐚 ${pushname} 𝐛𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝@ 𝐚𝐥 𝐦𝐞𝐧𝐮
 ╭────•••◈•••───╮
 TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1
 ✦⏝࣪꒷꒦꒦꒷꒦⏝⏝꒦꒷✦
-
 ₮ɄɌɃØ 𝐈𝐧𝐟𝐨
 ✪➣ ${prefix}𝐜𝐚𝐧𝐚𝐥
 ✪➣ ${prefix}𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 ✪➣ ${prefix}𝐫𝐞𝐠𝐥𝐚𝐬
 ✪➣ ${prefix}𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫
 ✪➣ ${prefix}𝐛𝐮𝐠
-
 ₮ɄɌɃØ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
 ✪➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐞𝐫
 ✪➣ ${prefix}𝐬𝐰𝐦
@@ -1023,7 +1016,6 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐬𝐥𝐨𝐰 
 ✪➣ ${prefix}𝐟𝐚𝐬𝐭
 ✪➣ ${prefix}𝐭𝐨𝐦𝐩𝟑
-
 ₮ɄɌɃØ 𝐌𝐞𝐧𝐜𝐢𝐨𝐧𝐞𝐬
 ✪➣ ${prefix}𝐡𝐢𝐝𝐞𝐭𝐚𝐠
 ✪➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐭𝐚𝐠
@@ -1033,14 +1025,12 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐭𝐨𝐭𝐚𝐠
 ✪➣ ${prefix}𝐢𝐧𝐟𝐨𝐚𝐥𝐥
 ✪➣ ${prefix}𝐭𝐚𝐠𝐚𝐥𝐥
-
 ₮ɄɌɃØ 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
 ✪➣ ${prefix}𝐩𝐥𝐚𝐲
 ✪➣ ${prefix}𝐲𝐭𝐦𝐩𝟑
 ✪➣ ${prefix}𝐲𝐭𝐦𝐩𝟒
 ✪➣ ${prefix}𝐭𝐰𝐢𝐭𝐭𝐞𝐫
 ✪➣ ${prefix}𝐟𝐛
-
 ₮ɄɌɃØ 𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚𝐬
 ✪➣ ${prefix}𝐢𝐠𝐬𝐭𝐚𝐥𝐤
 ✪➣ ${prefix}𝐭𝐢𝐤𝐭𝐨𝐤𝐬𝐭𝐚𝐥𝐤
@@ -1049,7 +1039,6 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐠𝐨𝐨𝐠𝐥𝐞
 ✪➣ ${prefix}𝐛𝐫𝐚𝐢𝐧𝐥𝐲
 ✪➣ ${prefix}𝐭𝐰𝐢𝐜𝐡
-
 ₮ɄɌɃØ 𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
 ✪➣ ${prefix}𝐚𝐯𝐚𝐭𝐚𝐫
 ✪➣ ${prefix} 𝐥𝐨𝐥𝐢
@@ -1062,7 +1051,6 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐦𝐮𝐣𝐞𝐫
 ✪➣ ${prefix}𝐡𝐨𝐦𝐛𝐫𝐞
 ✪➣ ${prefix}𝐜𝐲𝐛𝐞𝐫𝐩𝐮𝐧𝐤
-
 ₮ɄɌɃØ 𝐆𝐫𝐮𝐩𝐨𝐬
 ✪➣ ${prefix}𝐥𝐞𝐯𝐞𝐥
 ✪➣ ${prefix}𝐩𝐫𝐨𝐦𝐨𝐭𝐞 @
@@ -1082,7 +1070,6 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐫𝐚𝐧𝐤𝐠𝐚𝐲
 ✪➣ ${prefix}𝐫𝐚𝐧𝐤𝐥𝐢𝐧𝐝𝐨
 ✪➣ ${prefix}𝐚𝐟𝐤
-
 ₮ɄɌɃØ 𝐎𝐭𝐫𝐨𝐬
 ✪➣ ${prefix}𝐜𝐨𝐯𝐢𝐝𝐰𝐨𝐫𝐥𝐝
 ✪➣ ${prefix}𝐜𝐧𝐧
@@ -1097,7 +1084,6 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐰𝐚𝐦𝐞
 ✪➣ ${prefix}𝐜𝐚𝐬𝐬𝐢𝐧𝐨
 ✪➣ ${prefix}𝐟𝐚𝐤𝐞
-
 ₮ɄɌɃØ 𝐒𝐨𝐥𝐨 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 ✪➣ ${prefix}𝐬𝐞𝐥𝐟
 ✪➣ ${prefix}𝐩𝐮𝐛𝐥𝐢𝐜
@@ -2570,9 +2556,7 @@ case prefix+ 'comandos':
   Tutorial de instalación en el canal 
   TURBO NTR
   Depende de tu apoyo para que este bot siga funcionando
-
   https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1
-
 💞💞💞💞💞💞💞
 `
 faketokoforwaded(her)
@@ -2931,7 +2915,6 @@ break
       case prefix+ 'herodetail':
         res = await herodetails(body.slice(12))
         her = `*Hero details ${body.slice(12)}*
-
 *Nama* : ${res.hero_name}
 *Role* : ${res.role}
 *Quotes* : ${res.entrance_quotes}
@@ -2940,13 +2923,11 @@ break
 *Rekomendasi Lane* : ${res.laning_recommendation}
 *Harga* : ${res.price.battle_point} [Battle point] | ${res.price.diamond} [DM] | ${res.price.hero_fragment} [Fragment]
 *Rilis* : ${res.release_date}
-
 *Durability* : ${res.skill.durability}
 *Offence* : ${res.skill.offense}
 *Skill Effect* : ${res.skill_effects}
 *Difficulty* : ${res.skill.difficulty}
  
-
 *Movement Speed* : ${res.attributes.movement_speed}
 *Physical Attack* : ${res.attributes.physical_attack}
 *Magic Defense* : ${res.attributes.magic_defense}
@@ -2954,7 +2935,6 @@ break
 *HP* : ${res.attributes.hp}
 *Mana* : ${res.attributes.mana}
 *Mana Regen* : ${res.attributes.mana_regen}
-
 *Story* : ${res.background_story}
 `
 faketokoforwaded(her)
